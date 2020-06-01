@@ -1,1 +1,3 @@
-asdadasda
+
+## 给 T_GAME_JOURNAL 游戏记录表增加字段
+ALTER TABLE T_GAME_JOURNAL ADD JOURNAL_ID INT (11) NOT NULL DEFAULT '0' COMMENT '关联其游戏记录的id'
